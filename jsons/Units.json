@@ -322,7 +322,7 @@
                 "attackSound": "machinegun"
                 },
                 
-                {
+                /*{
                 "name": "Gas Missile",
                 "unitType": "Missile",
                 "range": 12,
@@ -333,7 +333,7 @@
                 "requiredTech": "Advanced Ballistics",
                 "requiredResource": "Biohazard Matter",
                 "uniques": ["Consumes [1] [Fuel]"]
-                },
+                },*/
                 
                 {
                 "name": "Napalm Missile",
