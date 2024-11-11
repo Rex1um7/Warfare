@@ -1,6 +1,6 @@
 # Warfare
 
-[From](https://github.com/Huymnsel/Arial-expanded/tree/main/jsons) 
+[https://github.com/Huymnsel/Arial-expanded/tree/main](https://github.com/Huymnsel/Arial-expanded/tree/main)
 
 https://github.com/Angelonius/Project-Kaigun
 
