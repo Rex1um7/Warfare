@@ -1,7 +1,22 @@
 [
-  {
-        "name": "Helicopter Water",
-        "movementType": "Air",
-        "uniques": ["Aircraft"]
-  },
+        {
+                "name": "Helicopter Water",
+                "movementType": "Air",
+                "uniques": ["Aircraft"]
+        },
+
+        {
+                "name": "Air Base",
+                "movementType": "Land"
+        },
+        
+        {
+                "name": "Land Carrier",
+                "movementType": "Land"
+        },
+        
+        {
+                "name": "Anti Air",
+                "movementType": "Land"
+        },
 ]
