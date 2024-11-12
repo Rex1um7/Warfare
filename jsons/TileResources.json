@@ -1,1 +1,11 @@
-
+[
+        {
+                "name": "Fuel",
+                "resourceType": "Strategic"
+        },
+        
+        {
+                "name": "Biohazard Matter",
+                "resourceType": "Strategic"
+        },
+]
