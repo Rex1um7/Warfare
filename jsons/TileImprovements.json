@@ -1,1 +1,10 @@
-
+[
+        {
+          	"name": "Helicopter Base",
+          	"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
+          	"turnsToBuild": 4,
+          	"techRequired": "Radar",
+          	"uniques": ["Can be built outside your borders"],
+          	"shortcutKey": "H"
+        },
+]
