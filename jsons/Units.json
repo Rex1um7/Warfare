@@ -10,9 +10,11 @@
 		"cost": 500,
 		"requiredResource": "Oil",
 		"requiredTech": "Robotics",
-		"uniques": ["Can carry [2] [Air] units","[100]% chance to intercept air attacks", 
-			    "Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire"],
+		"uniques": [
+			"Can carry [2] [Air] units",
+			"[100]% chance to intercept air attacks", 
+			"Ranged attacks may be performed over obstacles",
+		],
 		"attackSound": "shipguns"
 	},
 	{
@@ -25,9 +27,15 @@
 		"cost": 500,
 		"requiredTech": "Telecommunications",
 		"requiredResource": "Uranium",
-		"uniques": ["[+75]% Strength <when attacking>", "Invisible to others", 
-			"Can only attack [Water] tiles", "Can attack submarines", "Can enter ice tiles", "[+1] Sight", "Can carry [2] [Air] units", 
-			   "Never appears as a Barbarian unit"],
+		"uniques": [
+			"[+75]% Strength <when attacking>", 
+			"Invisible to others", 
+			"Can only attack [Water] tiles", 
+			"Can attack submarines", 
+			"Can enter ice tiles", 
+			"[+1] Sight", 
+			"Can carry [2] [Air] units", 
+		],
 		"attackSound": "torpedo"
 	},
 	{
@@ -40,8 +48,11 @@
 		"cost": 350,
 		"requiredTech": "Computers",
 		"requiredResource": "Oil",
-		"uniques": ["Can attack submarines","[+100]% Strength <vs [Submarine] units>","Can move after attacking", "Can see invisible [Submarine] units", 
-			    "Never appears as a Barbarian unit"],
+		"uniques": [
+			"[+100]% Strength <vs [Submarine] units>",
+			"Can move after attacking", 
+			"Can see invisible [Submarine] units", 
+		],
 		"attackSound": "bombing"
 	},
         {
@@ -52,7 +63,11 @@
 		"cost": 400,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+125]% Strength <vs [Armored] units>", "Can move after attacking", "[-25]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"[+125]% Strength <vs [Armored] units>", 
+			"Can move after attacking", 
+			"[-25]% Strength <vs cities>", 
+		],
 		"attackSound": "tankshot"
 	},
 	{
@@ -64,9 +79,16 @@
 		"cost": 400,
 		"requiredTech": "Rocketry",
 		"requiredResource": "Copper",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+100]% Strength <vs [Armored] units>", 
-			"[+150]% Strength <vs [Helicopter] units>", "+[25]% combat bonus in [Hill]", "+[25]% combat bonus in [Forest]",
-			"+[25]% combat bonus in [Jungle]", "[-25]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"[100]% chance to intercept air attacks", 
+			"[+150]% Strength <vs [Air] units>", 
+			"[+100]% Strength <vs [Armored] units>", 
+			"[+150]% Strength <vs [Helicopter] units>", 
+			"[+25]% Strength <in [Hill] tiles>", 
+			"[+25]% Strength <in [Forest] tiles>",
+			"[+25]% Strength <in [Jungle] tiles>", 
+			"[-25]% Strength <vs cities>", 
+		],
 		"attackSound": "missile"
 	},
 	{
@@ -78,9 +100,16 @@
 		"cost": 400,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", 
-			    "[+150]% Strength <vs [Gunpowder] units>", "[+150]% Strength <vs [Ranged Gunpowder] units>", "[-25]% Strength <vs cities>", 
-			    "[-25]% Strength <vs [Armored] units>", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"[100]% chance to intercept air attacks", 
+			"[+150]% Strength <vs [Air] units>", 
+			"[+150]% Strength <vs [Helicopter] units>", 
+			"[+150]% Strength <vs [Gunpowder] units>", 
+			"[+150]% Strength <vs [Ranged Gunpowder] units>", 
+			"[-25]% Strength <vs cities>", 
+			"[-25]% Strength <vs [Armored] units>", 
+			"Can move after attacking", 
+		],
 		"attackSound": "machinegun"
 	},
         {
@@ -96,7 +125,11 @@
 		"requiredResource": "Copper",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack"
+		],
 		"promotions": ["Volley","Extended Range","Indirect Fire"],
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
@@ -114,7 +147,11 @@
 		"requiredResource": "Copper",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack"
+		],
 		"promotions": ["Volley","Extended Range","Indirect Fire"],
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
@@ -132,7 +169,11 @@
 		"requiredResource": "Copper",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack"
+		],
 		"promotions": ["Volley","Extended Range","Indirect Fire"],
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
@@ -150,7 +191,11 @@
 		"requiredResource": "Copper",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["Bonus vs City 200%","No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack",
+		],
 		"promotions": ["Volley","Extended Range","Indirect Fire"],
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
@@ -181,19 +226,24 @@
                 "name": "Mothership",
                 "unitType": "Air Base",
                 "range": 3,
-                "movement": 4,
+                "movement": 5,
                 "strength": 90,
                 "rangedStrength": 70,
                 "cost": 450,
                 "requiredTech": "Plastics",
-                "uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles",
-		"Can carry [2] [Air] units",
-		"Can carry [4] [Missile] units",
-		"Never appears as a Barbarian unit",
-		"All tiles cost 1 movement",
-		"Can see over obstacles",
-		"Ranged attacks may be performed over obstacles",
-		"[+1] Sight"]
+                "uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can carry [2] [Air] units",
+			"Can carry [4] [Missile] units",
+			"All tiles cost 1 movement",
+			"Can see over obstacles",
+			"Ranged attacks may be performed over obstacles",
+			"May attack when embarked",
+			"[+1] Sight",
+			"[1] Movement point cost to disembark",
+			"[1] Movement point cost to embark",
+			"Never appears as a Barbarian unit",
+		]
         },
 
                 {
@@ -203,26 +253,29 @@
                 "strength": 70,
                 "cost": 375,
                 "requiredTech": "Telecommunications",
-                "uniques": ["Cannot attack",
-                		"Never appears as a Barbarian unit",
-                		"All tiles cost 1 movement",
-                		"All adjacent units heal [+20] HP when healing",
-                		"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"]
+                "uniques": [
+			"Cannot attack",
+                	"Never appears as a Barbarian unit",
+                	"All tiles cost 1 movement",
+                	"All adjacent units heal [+20] HP when healing",
+                	"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"
+		]
                 },
                 
                 {
-                "name": "Land Carrier",
-                "unitType": "Land Carrier",
-                "range": 4,
-                "movement": 6,
-                "strength": 70,
-                "rangedStrength": 100,
-                "cost": 450,
-                "requiredTech": "Mobile Tactics",
-                "uniques": ["Can carry [4] [Air] units",
-                		"Can carry [2] [Missile] units",
-                		"Never appears as a Barbarian unit"],
-                "promotions": ["Indirect Fire"]
+	                "name": "Land Carrier",
+	                "unitType": "Land Carrier",
+	                "range": 4,
+	                "movement": 6,
+	                "strength": 70,
+	                "rangedStrength": 100,
+	                "cost": 450,
+	                "requiredTech": "Mobile Tactics",
+	                "uniques": [
+				"Can carry [4] [Air] units",
+	                	"Can carry [2] [Missile] units",
+			],
+	                "promotions": ["Indirect Fire"]
                 },
                 
                 {
@@ -235,7 +288,12 @@
                 		"requiredTech": "Ballistics",
                 		"upgradesTo": "Mobile SAM",
                 		"obsoleteTech": "Rocketry",
-                		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+                		"uniques": [
+					"[100]% chance to intercept air attacks", 
+					"[+150]% Strength <vs [Air] units>", 
+					"[+150]% Strength <vs [Helicopter] units>", 
+					"Never appears as a Barbarian unit"
+				],
                 		"attackSound": "machinegun"
                 },
                 
@@ -247,105 +305,121 @@
                 		"strength": 65,
                 		"cost": 425,
                 		"requiredTech": "Rocketry",
-                		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
-                			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+                		"uniques": [
+					"[100]% chance to intercept air attacks", 
+					"[+150]% Strength <vs [Air] units>",
+                			"[+150]% Strength <vs [Helicopter] units>", 
+				],
                 		"attackSound": "missile"
                 },
                 
                 {
-                "name": "Naval Helicopter",
-                "unitType": "Helicopter",
-                "movement": 4,
-                "strength": 85,
-                "cost": 375,
-                "requiredTech": "Robotics",
-                "uniques": ["Never appears as a Barbarian unit",
-                		"All tiles cost 1 movement",
-                		"[+40%] strength <vs [Water] units>",
-                		"Defense bonus when embarked",
-                		"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"],
-                "promotions": ["Amphibious"],
-                "requiredResource": "Fuel"
+	                "name": "Naval Helicopter",
+	                "unitType": "Helicopter",
+	                "movement": 5,
+	                "strength": 85,
+	                "cost": 375,
+	                "requiredTech": "Robotics",
+	                "uniques": [
+	                	"All tiles cost 1 movement",
+	                	"[+40]% Strength <vs [Water] units>",
+	                	"Defense bonus when embarked",
+	                	"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"
+			],
+	                "promotions": ["Amphibious"],
+	                "requiredResource": "Fuel"
                 },
                 
                 {
-                "name": "Heavy Duty Helicopter",
-                "unitType": "Helicopter",
-                "movement": 3,
-                "strength": 95,
-                "interceptRange": 1,
-                "range": 3,
-                "rangedStrength": 95,
-                "cost": 475,
-                "requiredTech": "Advanced Ballistics",
-                "uniques": ["Never appears as a Barbarian unit",
-                		"All tiles cost 1 movement",
-                		"Can carry [1] [Guided Missile] units",
-                		"[+50%] strength <vs [Helicopter, Aircraft] units>",
-                		"[25]% chance to intercept air attacks",
-                		"No defensive terrain bonus",
-                		"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"],
-                "promotions": ["Indirect Fire"]
+	                "name": "Heavy Duty Helicopter",
+	                "unitType": "Helicopter",
+	                "movement": 5,
+	                "strength": 95,
+	                "interceptRange": 1,
+	                "range": 3,
+	                "rangedStrength": 95,
+	                "cost": 475,
+	                "requiredTech": "Advanced Ballistics",
+	                "uniques": [
+	                	"All tiles cost 1 movement",
+				"Ignores Zone of Control", 
+				"Unable to capture cities",
+				"Can move after attacking",
+	                	"Can carry [1] [Guided Missile] units",
+	                	"[+50]% Strength <vs [Helicopter] units>",
+				"[+50]% Strength <vs [Aircraft] units>",
+	                	"[25]% chance to intercept air attacks",
+	                	"No defensive terrain bonus",
+	                	"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"
+			],
+	                "promotions": ["Indirect Fire"]
                 },
                 
                 {
-                "name": "Quick Ops Helicopter",
-                "unitType": "Helicopter",
-                "movement": 5,
-                "strength": 75,
-                "cost": 325,
-                "requiredTech": "Mobile Tactics",
-                "uniques": ["Never appears as a Barbarian unit",
-                		"All tiles cost 1 movement",
-                		"Can move after attacking",
-                		"[+50]% Strength <when attacking>",
-                		"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"],
-                "requiredResource": "Fuel"
+	                "name": "Quick Ops Helicopter",
+	                "unitType": "Helicopter",
+	                "movement": 5,
+	                "strength": 75,
+	                "cost": 325,
+	                "requiredTech": "Mobile Tactics",
+	                "uniques": [
+	                	"All tiles cost 1 movement",
+	                	"Can move after attacking",
+	                	"[+50]% Strength <when attacking>",
+	                	"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"
+			],
+	                "requiredResource": "Fuel"
                 },
                 
                 {	
-                "name": "Helicopter Gunship",
-                "unitType": "Helicopter",
-                "movement": 6,
-                "strength": 60,
-                "cost": 425,
-                "requiredTech": "Computers",
-                "requiredResource": "Aluminum",
-                "uniques": ["[+100]% Strength <vs [Armored] units>",
-                		"No defensive terrain bonus",
-                		"Can move after attacking",
-                		"All tiles cost 1 movement",
-                		"Ignores Zone of Control",
-                		"Unable to capture cities",
-                		"Never appears as a Barbarian unit",
-                		"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"],	
-                "attackSound": "machinegun"
+	                "name": "Helicopter Gunship",
+	                "unitType": "Helicopter",
+	                "movement": 6,
+	                "strength": 60,
+	                "cost": 425,
+	                "requiredTech": "Computers",
+	                "requiredResource": "Aluminum",
+	                "uniques": ["[+100]% Strength <vs [Armored] units>",
+	                		"No defensive terrain bonus",
+	                		"Can move after attacking",
+	                		"All tiles cost 1 movement",
+	                		"Ignores Zone of Control",
+	                		"Unable to capture cities",
+	                		"Never appears as a Barbarian unit",
+	                		"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"],	
+	                "attackSound": "machinegun"
                 },
                 
-                /*{
-                "name": "Gas Missile",
-                "unitType": "Missile",
-                "range": 12,
-                "movement": 1,
-                "strength": 150,
-                "rangedStrength": 150,
-                "cost": 400,
-                "requiredTech": "Advanced Ballistics",
-                "requiredResource": "Biohazard Matter",
-                "uniques": ["Consumes [1] [Fuel]"]
-                },*/
+                {
+	                "name": "Gas Missile",
+	                "unitType": "Missile",
+	                "range": 12,
+	                "movement": 1,
+	                "strength": 150,
+	                "rangedStrength": 150,
+	                "cost": 400,
+	                "requiredTech": "Advanced Ballistics",
+	                "requiredResource": "Biohazard Matter",
+	                "uniques": [
+				"Consumes [1] [Fuel]",
+				"Consumes [1] [Biohazard Matter]",
+				"Blast radius [1]",
+		]
+                },
                 
                 {
-                "name": "Napalm Missile",
-                "unitType": "Missile",
-                "range": 8,
-                "movement": 1,
-                "strength": 200,
-                "rangedStrength": 200,
-                "cost": 500,
-                "requiredTech": "Advanced Ballistics",
-                "uniques": ["Blast radius [1]",
-                		"Consumes [2] [Fuel]",
-                		"Nuclear weapon of Strength [1]"]
+	                "name": "Napalm Missile",
+	                "unitType": "Missile",
+	                "range": 8,
+	                "movement": 1,
+	                "strength": 200,
+	                "rangedStrength": 200,
+	                "cost": 500,
+	                "requiredTech": "Advanced Ballistics",
+	                "uniques": [
+				"Blast radius [1]",
+	                	"Consumes [3] [Fuel]",
+	                	"Nuclear weapon of Strength [1]"
+			]
                 },
 ]
