@@ -1,1 +1,22 @@
-
+[
+        {
+        "name": "Oil Refinery",
+        "production": 3,
+        "cost": 300,
+        "specialistSlots": {"Engineer": 1},
+        "greatPersonPoints": {"Great Engineer": 1},
+        "maintenance": 3,
+        "uniques": ["Consumes [3] [Oil]", "Provides [2] [Fuel]"],
+        "requiredTech": "Combustion"
+        },
+        
+        {
+        "name": "Chemical Weapons Lab",
+        "science": 2,
+        "cost": 275,
+        "specialistSlots": {"Scientist": 1},
+        "maintenance": 2,
+        "uniques": ["Provides [2] [Biohazard Matter]"],
+        "requiredTech": "Biology"
+        },
+]
