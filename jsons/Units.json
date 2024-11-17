@@ -208,6 +208,7 @@
 		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Gunpowder"
+		"upgradesTo": "Rifleman",
 		"attackSound": "shot"
 	},
 	{
@@ -219,6 +220,7 @@
 		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
 		"attackSound": "shot"
 	},
         {
