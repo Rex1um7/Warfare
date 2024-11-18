@@ -324,7 +324,7 @@
 	                "uniques": [
 	                	"All tiles cost 1 movement",
 	                	"[+40]% Strength <vs [Water] units>",
-	                	"Defense bonus when embarked",
+	                	"[+100]% Strength <when defending> <when [Embarked]>",
 	                	"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"
 			],
 	                "promotions": ["Amphibious"],
