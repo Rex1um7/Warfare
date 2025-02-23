@@ -11,8 +11,9 @@
         {
 		"name": "Copper",
 		"resourceType": "Strategic",
+		"revealedBy": "Bronze Working",
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra"],
-		"gold": 2,
+		"production": 1,
 		"improvement": "Mine",
 		"uniques": ["Guaranteed with Strategic Balance resource option",
 					"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
