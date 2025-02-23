@@ -421,11 +421,10 @@
 	                "rangedStrength": 150,
 	                "cost": 400,
 	                "requiredTech": "Advanced Ballistics",
-	                "requiredResource": "Biohazard Matter",
 	                "uniques": [
 				"Consumes [1] [Fuel]",
 				"Consumes [1] [Biohazard Matter]",
-				"Blast radius [1]",
+				"Blast radius [2]",
 		]
                 },
                 
