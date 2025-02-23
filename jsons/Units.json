@@ -424,7 +424,8 @@
 	                "uniques": [
 				"Consumes [1] [Fuel]",
 				"Consumes [1] [Biohazard Matter]",
-				"Blast radius [2]",
+				"Blast radius [1]",
+				"Nuclear weapon of Strength [0]",
 		]
                 },
                 
@@ -438,9 +439,9 @@
 	                "cost": 500,
 	                "requiredTech": "Advanced Ballistics",
 	                "uniques": [
+				"Consumes [3] [Fuel]",
 				"Blast radius [1]",
-	                	"Consumes [3] [Fuel]",
-	                	"Nuclear weapon of Strength [1]"
+				"Nuclear weapon of Strength [1]",
 			]
                 },
 ]
