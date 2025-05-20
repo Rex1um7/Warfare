@@ -244,7 +244,7 @@
 			"Ranged attacks may be performed over obstacles",
 			"[+1] Sight",
 			"May travel on Water tiles without embarking",
-			"May attack when embarked",
+			"Can enter ice tiles",
 			"[-1] Sight <in [Water] tiles>",
 		]
         },
@@ -280,7 +280,7 @@
 				"Can carry [4] [Air] units",
 	                	"Can carry [2] [Missile] units",
 				"May travel on Water tiles without embarking",
-				"May attack when embarked",
+				"Can enter ice tiles",
 				"[-1] Sight <in [Water] tiles>",
 				"All tiles cost 1 movement",
 			],
