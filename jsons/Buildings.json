@@ -25,8 +25,8 @@
         "cost": 350,
         "specialistSlots": {"Artist": 3},
         "maintenance": 4,
+        "requiredNearbyImprovedResources": "Copper",
         "uniques": [
-                "Must have an owned [Copper] within [2] tiles",
                 "[+2 Gold, +1 Culture] from [Copper] tiles [in all cities]",
         ],
         "requiredTech": "Archaeology"
