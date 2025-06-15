@@ -9,7 +9,6 @@
         "uniques": ["Consumes [3] [Oil]", "Provides [2] [Fuel]"],
         "requiredTech": "Combustion"
         },
-        
         {
         "name": "Chemical Weapons Lab",
         "science": 2,
@@ -18,5 +17,18 @@
         "maintenance": 2,
         "uniques": ["Provides [2] [Biohazard Matter]"],
         "requiredTech": "Biology"
+        },
+        {
+        "name": "Bronze Age Museum",
+        "culture": 3,
+        "happiness": 2,
+        "cost": 350,
+        "specialistSlots": {"Artist": 3},
+        "maintenance": 4,
+        "uniques": [
+                "Must have an owned [Copper] within [2] tiles",
+                "[+2 Gold, +1 Culture] from [Copper] tiles [in all cities]",
+        ],
+        "requiredTech": "Archaeology"
         },
 ]
