@@ -137,7 +137,7 @@
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Lantaka (Sulu)",
+		"name": "Lantaka (Sultanate of Sulu)",
 		"unitType": "Siege",
 		"replaces": "Trebuchet",
 		"uniqueTo": "Sulu",
