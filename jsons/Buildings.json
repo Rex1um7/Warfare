@@ -40,7 +40,7 @@
 		],
 		"requiredTech": "Bronze Working",
 		"uniques": [
-                        "[+2]% Strength",
+                        "[+2]% Strength <for [Melee] units> <when attacking>",
 			"[+5]% Production when constructing [Land] units [in this city]",
 			"[+1 Production] from [Copper] tiles [in this city]"
 		]
